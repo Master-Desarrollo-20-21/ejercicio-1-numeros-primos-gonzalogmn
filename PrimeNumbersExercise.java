@@ -2,10 +2,10 @@ public class PrimeNumbersExercise {
 
     public static void main(String[] args) {
         // La suma de los números primos que hay entre los 50 primeros números
-        int maxValue = 50;
+        final int MAX_VALUE = 50;
         int result = 0;
 
-        for(int i=1; i<=maxValue; i++) {
+        for(int i=1; i<=MAX_VALUE; i++) {
             if(isPrime(i)) {
                 result += i;
             }
